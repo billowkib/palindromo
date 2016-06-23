@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 def palindrome?(word)
-  palindrome == palindrome.reverse
+  word == word.reverse
 end
 
 puts "Ingresa palabra"
